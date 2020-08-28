@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/whiteboard/static/css/main.5dda5a91.chunk.css",
-    "main.js": "/whiteboard/static/js/main.5dcfcf53.chunk.js",
-    "main.js.map": "/whiteboard/static/js/main.5dcfcf53.chunk.js.map",
+    "main.js": "/whiteboard/static/js/main.0d8ebcda.chunk.js",
+    "main.js.map": "/whiteboard/static/js/main.0d8ebcda.chunk.js.map",
     "runtime-main.js": "/whiteboard/static/js/runtime-main.c2696591.js",
     "runtime-main.js.map": "/whiteboard/static/js/runtime-main.c2696591.js.map",
     "static/js/2.bdee68e3.chunk.js": "/whiteboard/static/js/2.bdee68e3.chunk.js",
     "static/js/2.bdee68e3.chunk.js.map": "/whiteboard/static/js/2.bdee68e3.chunk.js.map",
     "index.html": "/whiteboard/index.html",
-    "precache-manifest.55ea48d9fc34c54b11fcf8965f8d2163.js": "/whiteboard/precache-manifest.55ea48d9fc34c54b11fcf8965f8d2163.js",
+    "precache-manifest.a59286fd7597823a75dabc2b328a89d2.js": "/whiteboard/precache-manifest.a59286fd7597823a75dabc2b328a89d2.js",
     "service-worker.js": "/whiteboard/service-worker.js",
     "static/css/main.5dda5a91.chunk.css.map": "/whiteboard/static/css/main.5dda5a91.chunk.css.map",
     "static/js/2.bdee68e3.chunk.js.LICENSE.txt": "/whiteboard/static/js/2.bdee68e3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c2696591.js",
     "static/js/2.bdee68e3.chunk.js",
     "static/css/main.5dda5a91.chunk.css",
-    "static/js/main.5dcfcf53.chunk.js"
+    "static/js/main.0d8ebcda.chunk.js"
   ]
 }
