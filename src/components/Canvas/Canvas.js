@@ -55,9 +55,9 @@ export default function Canvas({color, size, clear, setClear}) {
 
   return (
     <canvas id="canvas"
-      onMouseDown={startDrawing}
-      onMouseUp={finishDrawing}
-      onMouseMove={draw}
+      onPointerDown={startDrawing}
+      onPointerUp={finishDrawing}
+      onPointerMove={draw}
       ref={canvasRef}
     />
   );
