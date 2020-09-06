@@ -26,12 +26,43 @@ code {
   touch-action: none;
 }
 
-.Menu button:hover {
-  cursor: pointer;
-}
-
 .Menu {
   position: absolute;
   top: 0;
   right: 0;
+  cursor: pointer;
+}
+
+.Menu button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  border-color: #a9a9a9;
+}
+
+.Menu button:hover {
+  cursor: pointer;
+  background-color: #d9d9d9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  border-color: #8c8c8c;
+}
+
+.Menu button:focus, a:focus {
+  outline: none;
+}
+
+.Menu button:active, a:active {
+  outline: none;
+}
+
+.Menu .active {
+  background-color: #d9d9d9;
+  border-color: #8c8c8c;
+}
+
+img {
+  margin: auto;
+  height: 25px;
+  width: 25px;
 }

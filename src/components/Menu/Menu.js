@@ -12,7 +12,7 @@ import exportImg from '../../img/download.png'
 
 export default function Menu() {
 
-  const { setStylus, styli, setClear } = useContext(CanvasContext)
+  const { stylus, setStylus, styli, setClear } = useContext(CanvasContext)
 
   const exportCanvas = () => {
     var download = document.getElementById("download");
@@ -23,12 +23,12 @@ export default function Menu() {
 
   return (
     <div className='Menu'>
-      <button onClick={() => setStylus(styli[0])}><img src={blackMarkerImg} alt='Black'></img></button>
-      <button onClick={() => setStylus(styli[1])}><img src={blueMarkerImg} alt='Blue'></img></button>
-      <button onClick={() => setStylus(styli[2])}><img src={greenMarkerImg} alt='Green'></img></button>
-      <button onClick={() => setStylus(styli[3])}><img src={redMarkerImg} alt='Red'></img></button>
-      <button onClick={() => setStylus(styli[4])}><img src={purpleMarkerImg} alt='Purple'></img></button>
-      <button onClick={() => setStylus(styli[5])} title='Eraser'><img src={eraseImg} alt='Eraser'></img></button>
+      <button onClick={() => setStylus(styli[0])} className={stylus === styli[0] ? 'active' : ''}><img src={blackMarkerImg} alt='Black'></img></button>
+      <button onClick={() => setStylus(styli[1])} className={stylus === styli[1] ? 'active' : ''}><img src={blueMarkerImg} alt='Blue'></img></button>
+      <button onClick={() => setStylus(styli[2])} className={stylus === styli[2] ? 'active' : ''}><img src={greenMarkerImg} alt='Green'></img></button>
+      <button onClick={() => setStylus(styli[3])} className={stylus === styli[3] ? 'active' : ''}><img src={redMarkerImg} alt='Red'></img></button>
+      <button onClick={() => setStylus(styli[4])} className={stylus === styli[4] ? 'active' : ''}><img src={purpleMarkerImg} alt='Purple'></img></button>
+      <button onClick={() => setStylus(styli[5])} title='Eraser' className={stylus === styli[5] ? 'active' : ''}><img src={eraseImg} alt='Eraser'></img></button>
       <button onClick={() => setClear(true)} title='Clear'><img src={clearImg} alt='clear' /></button>
       <a id='download' download='canvas.png' href={document.getElementById('canvas')  ? document.getElementById("canvas").toDataURL("image/png")
     .replace("image/png", "image/octet-stream") : null}>
