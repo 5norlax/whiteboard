@@ -28,6 +28,7 @@ code {
 
 .Menu {
   position: absolute;
+  padding: 1px;
   top: 0;
   right: 0;
   cursor: pointer;
