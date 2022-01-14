@@ -1,6 +1,6 @@
 {
-  "short_name": "Whiteboard",
-  "name": "Whiteboard",
+  "short_name": "whiteboard",
+  "name": "whiteboard",
   "icons": [
     {
       "src": "whiteboard.png",
